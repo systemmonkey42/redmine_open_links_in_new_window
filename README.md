@@ -1,5 +1,7 @@
 # Redmine Plugin for Opening Links in New Tabs
 
+This plugin forked from https://github.com/Undev/redmine_open_links_in_new_window, upgrade for redmine 3.3.3.
+
 This plugin opens any link you click in a new browser tab instead of your current tab. This plugin works in Wiki, descriptions and notes for projects, issues, documents, etc.
 
 ## Compatibility
