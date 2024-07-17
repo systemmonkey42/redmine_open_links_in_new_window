@@ -23,7 +23,7 @@
 
 		document.observe('dom:loaded', function()
 		{
-			var links = $$('div.wiki a, div.attachments a, div.journal ul.details a, a.external');
+			var links = $$('div.wiki a.external, div.attachments a, div.journal ul.details a, a.external');
 			for (var i = 0; i < links.length; i++)
 			{
 				handleAnchor.call(links[i]);
@@ -37,7 +37,7 @@
 
 		jQuery(document).ready(function()
 		{
-			jQuery('div.wiki a, div.attachments a, div.journal ul.details a, a.external').each(handleAnchor);
+			jQuery('div.wiki a.external, div.attachments a, div.journal ul.details a, a.external').each(handleAnchor);
 		});
 	}
 	else
